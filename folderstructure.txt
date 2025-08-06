@@ -1,0 +1,40 @@
+src/
+│
+├── assets/                 # Static assets like images, fonts, etc.
+│
+├── components/             # Reusable UI components
+│   ├── Button/
+│   │   ├── Button.jsx
+│   │   └── Button.css
+│   └── Header/
+│       ├── Header.jsx
+│       └── Header.css
+│
+├── pages/                  # Page-level components
+│   ├── Home/
+│   │   └── Home.jsx
+│   ├── About/
+│   │   └── About.jsx
+│   └── NotFound/
+│       └── NotFound.jsx
+│
+├── services/               # API functions (Axios)
+│   ├── api.js              # Axios instance
+│   └── userService.js      # Example API calls
+│
+├── store/                  # Redux Toolkit store setup
+│   ├── index.js            # Store configuration
+│   └── userSlice.js        # Example slice
+│
+├── routes/                 # Centralized route definitions
+│   └── AppRoutes.jsx
+│
+├── hooks/                  # Custom hooks
+│   └── useAuth.js
+│
+├── layouts/                # Shared layout components
+│   └── MainLayout.jsx
+│
+├── App.jsx                 # Root component
+├── main.jsx                # Vite entry point
+└── index.css               # Global styles
